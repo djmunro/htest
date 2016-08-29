@@ -1,6 +1,6 @@
 import socket
-import sys
 import subprocess
+import sys
 
 #TODO use python-can interface to replace Popen cansend command
 

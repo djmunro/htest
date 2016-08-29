@@ -1,13 +1,11 @@
 from __future__ import unicode_literals, absolute_import
 
-import os
-import unittest
-import adb
 import logging
+import os
 import subprocess
-import time
+import unittest
 
-from cereal import SerialConsole2
+import adb
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
